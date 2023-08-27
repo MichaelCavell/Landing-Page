@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/Pru33qjShpZSmG3z6VYwnT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/oOeFwZNlrTefzLYmlVV1UD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/97uahxiqZRoncBaCEI3aWz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/7m8l7TlFO-S3VkhHuR0at9Ih4imgI8P11RFo6YPCPC0.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/dFWsweFqlD8ExfyN7Gh_GPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/OLffGBTaF0XFOW1gnuHF0dIh4imgI8P11RFo6YPCPC0.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/t6Nd4cfPRhZP44Q5QAjcC9Ih4imgI8P11RFo6YPCPC0.woff) format('woff');
+}
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #1f2937;
+    height: 75px;
+  }
+
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+  }
+
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+  }
+
+  .content {
+    /*flex: 1;*/
+    display: flex;
+  }
+
+  .awesome {
+    background-color: #1f2937 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 40px;
+  }
+
+  .awesome h1  {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin: 0;
+  }
+
+  .awesome p {
+    margin-top: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+
+  .awesome button {
+    background-color: #3882f6;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 5px;
+  }
+
+  .image {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    object-fit:contain;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.random h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937; 
+ }
+
+ .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.lookat {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lookat img {
+    width: 100%;
+    height: 50%;
+    object-fit:cover;
+    border: solid #3882f6;
+    border-radius: 12px;
+}
+
+.random p {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937; 
+    margin: 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 80px;
+    margin-top: -80px;
+}
+
+.quotebody {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.BillMurray {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: extra-bold;
+    color: #1f2937; 
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 40px;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+
+.cta .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.cta p {
+    margin: 0;
+    font-size: 14px;
+    color: #e5e7eb;    
+}
+
+.cta button {
+    background-color: #3882f6;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: #e5e7eb;
+    border: solid #e5e7eb;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    align-items: center;
+    height: 75px;
+    color: #e5e7eb;
+  }
