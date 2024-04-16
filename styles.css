@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    justify-content: stretch;
 }
 
 h1,
@@ -167,7 +168,7 @@ ul {
 .blue-container {
     display: flex;
     background-color: #3882f6;
-    padding: 40px 100px;
+    padding: 40px 80px;
     color: #e5e7eb;
     gap: 80px;
     align-items: center;
