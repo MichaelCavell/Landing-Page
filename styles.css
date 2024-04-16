@@ -160,12 +160,8 @@ ul {
     text-align: right;
 }
 
-.call-to-action {
-    flex: 0 1 auto;
-}
-
 .call-to-action .container {
-    padding: 40px 10px;
+    padding: 40px 100px;
 }
 
 .blue-container {
@@ -222,4 +218,10 @@ ul {
     .boxes .container {
         flex-direction: column;
     } 
+}
+
+@media (max-width: 500px) {
+    .blue-container {
+        flex-direction: column;
+    }
 }
