@@ -223,5 +223,12 @@ ul {
 @media (max-width: 500px) {
     .blue-container {
         flex-direction: column;
+        justify-content: center;
+    }
+
+    .blue-left {
+        display: flex;
+        flex-direction: column;
+        gap: 30px
     }
 }
