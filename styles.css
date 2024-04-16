@@ -149,3 +149,38 @@ ul {
 .quote-section .container h4 {
     text-align: right;
 }
+
+.call-to-action .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.blue-container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 40px 180px;
+    color: #e5e7eb;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.blue-left {
+    flex: 1 0 auto;
+}
+
+.blue-right {
+    flex: 1 1 auto;
+}
+
+.blue-container button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: white solid 2px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
