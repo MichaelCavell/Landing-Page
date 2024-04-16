@@ -1,0 +1,1 @@
+The goal of this project is to practice all of the styling materials in the flexbox lessons of The Odin Project's Foundations course. In this project, I am going to build a basic landing page.
