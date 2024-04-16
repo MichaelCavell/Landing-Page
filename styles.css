@@ -7,6 +7,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 h1,
 h2 {
     margin-bottom: 15px;
@@ -25,6 +31,7 @@ ul {
 .navbar {
     background: #1f2937;
     height: 60px;
+    padding: 20px 0px;
 }
 
 .navbar .logo {
@@ -195,6 +202,7 @@ ul {
 
 .footer {
     background-color:#1f2937;
+    margin-top: auto;
 }
 
 .footer .container {
